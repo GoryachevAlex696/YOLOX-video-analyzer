@@ -209,6 +209,7 @@ docs/api
 *.pkl
 *.npy
 *.pth
+!weights/yolox_tiny.pth
 *.onnx
 *.engine
 events.out.tfevents*
