@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  yolox-analyzer:
+    build: .
+    image: yolox-analyzer:latest
+    volumes:
+      - ./assets:/app/assets
+      - ./YOLOX_outputs:/app/YOLOX_outputs
+      - ./weights:/app/weights
+    # По умолчанию команда демонстрационная — замените input_video.mp4 на ваш файл
+    command: python tools/video_analyzer.py -i "assets/develop_streem.ts" --frames=100,200,224
+
+# Примечание: docker-compose не скачивает видео автоматически — поместите файл в ./assets
