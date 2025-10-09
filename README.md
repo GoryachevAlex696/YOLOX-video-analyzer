@@ -50,7 +50,6 @@ docker compose run yolox-analyzer python tools/video_analyzer.py -i "assets/deve
 
 | Сценарий | Параметры | Результат |
 |----------|-----------|-----------|
-| **Демо-режим** | `-i "assets/develop_streem.ts"` | Видео + кадры + оба типа визуализации |
 | **Быстрая обработка** | `-i "assets/develop_streem.ts" --no-video` | Только кадры (без видео) |
 | **Только прямоугольники** | `-i "assets/develop_streem.ts" --visualization=bbox` | Только прямоугольные детекции |
 | **Только окружности** | `-i "assets/develop_streem.ts" --visualization=circle` | Только круговые детекции |
