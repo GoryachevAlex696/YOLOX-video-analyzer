@@ -8,7 +8,7 @@
 
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/yourname/yolox-video-analyzer.git
+git clone https://github.com/GoryachevAlex696/YOLOX-video-analyzer.git
 ```
 2.   Перейти в папку проекта:
 ```bash
